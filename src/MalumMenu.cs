@@ -63,7 +63,7 @@ public partial class MalumMenu : BasePlugin
         // Loads config settings
         menuKeybind = Config.Bind("MalumMenu.GUI",
                                 "Keybind",
-                                "Delete",
+                                "F6",
                                 "The keyboard key used to toggle the GUI on and off. List of supported keycodes: https://docs.unity3d.com/Packages/com.unity.tiny@0.16/api/Unity.Tiny.Input.KeyCode.html");
 
         menuHtmlColor = Config.Bind("MalumMenu.GUI",
